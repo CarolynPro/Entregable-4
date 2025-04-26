@@ -117,8 +117,8 @@ table {
     background-color: #74e499;
   }
   .imagen {
-    width: 200px; /* Ajusta el tamaño de las imágenes según el mosaico */
-    height: 200px;
+    width: 300px;
+    height: 300px;
     float: right;
     display: flex;
     justify-content: flex-start;
