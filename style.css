@@ -121,5 +121,5 @@ table {
     height: 200px;
     float: right;
     display: grid;
-  justify-content: end;
+  justify-content: start;
   }
