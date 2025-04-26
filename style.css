@@ -87,7 +87,7 @@ p{
     border: 1px solid #333;
     border-radius: 12px;
     box-shadow: 2px 2px 20px rgba(10, 4, 4, 0.1);
-    background-color: #97f05d;
+    background-color: #f887f2;
 }
 .formulario input, .formulario button{
     width: 95%;
@@ -104,7 +104,7 @@ table {
   }
   
   th, td {
-    border: 1px solid rgb(243, 18, 157); 
+    border: 1px solid rgb(243, 191, 223); 
     padding: 8px; 
     text-align: center;
   }
