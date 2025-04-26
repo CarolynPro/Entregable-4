@@ -34,7 +34,7 @@ ul ol li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
-    background-color: #f161b5;
+    background-color: #f5a2d2;
     color: white;
     text-align: center;
     padding: 10px;
@@ -87,12 +87,16 @@ p{
     border: 1px solid #333;
     border-radius: 12px;
     box-shadow: 2px 2px 20px rgba(10, 4, 4, 0.1);
-    background-color: #f887f2;
+    background-color: #b3afb2;
 }
 .formulario input, .formulario button{
     width: 95%;
     padding: 10px;
     margin: 10px;
+}
+.formulario input{
+    background-color: rgb(231, 133, 240); 
+
 }
 .formulario button{
     box-shadow: #c27171;
@@ -111,4 +115,15 @@ table {
   
   th {
     background-color: #74e499;
+  }
+
+  .contenedor {
+    width: 600px;
+    height: 300px;
+    overflow: hidden; /* Para evitar que las imágenes se salgan del contenedor */
+  }
+  .imagen {
+    width: 100px; /* Ajusta el tamaño de las imágenes según el mosaico */
+    height: 100px;
+    float: left;
   }
