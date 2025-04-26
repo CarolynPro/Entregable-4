@@ -116,14 +116,11 @@ table {
   th {
     background-color: #74e499;
   }
-
-  .contenedor {
-    width: 600px;
-    height: 600px;
-    overflow: hidden; /* Para evitar que las imágenes se salgan del contenedor */
-  }
   .imagen {
     width: 200px; /* Ajusta el tamaño de las imágenes según el mosaico */
     height: 200px;
-    float: none; 
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
