@@ -3,18 +3,12 @@ function mostrarMensaje(){
 }
 
 /*validacion de formulario*/
-function validarFormulario() {
-    const form = document.getElementById('contactForm')
-};
-
-form.addEventListener('submit', function(event) {
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
-
-    if (nombre === '' || email === '') {
-        alert('Por favor, completa todos los campos.');
-        event.preventDefault();
-    } else {
-        alert('Â¡Formulario enviado correctamente!');
+function validarFormulario(){
+    let nombre=document.getElementById("nombre").value;
+    let email=document.getElementById("email").value;
+    if (nombre=="" || email=="" || imagen=="" ){
+        alert("Todos los campos son obligatorios...");
+        return false;
     }
-});
+    return true;
+}

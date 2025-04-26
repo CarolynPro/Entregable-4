@@ -32,21 +32,75 @@
         <h2>Frase Personal</h2>
         <p>"Creo firmemente en el poder de los datos espaciales para transformar la manera en que comprendemos y protegemos nuestro entorno. Mi misión es integrar la tecnología y la ciencia ambiental para construir territorios más resilientes y sostenibles."</p>
     </section>
+    <section>
+        <h2><center>Horario Semanal con Actividades</center></h2>
+        <table>
+        <tr>
+            <th>Rango de Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+          </tr>
+          <tr>
+            <td>5:00 - 6:30</td>
+            <td>Ir al Gimnasio</td>
+            <td>Ir al Gimnasio</td>
+            <td>Ir al Gimnasio</td>
+            <td>Ir al Gimnasio</td>
+            <td>Ir al Gimnasio</td>
+            <td>Descansar</td>
+            <td>Descansar</td>
+          </tr>
+          <tr>
+            <td>7:30 - 18:00</td>
+            <td>Trabajar</td>
+            <td>Trabajar</td>
+            <td>Trabajar</td>
+            <td>Trabajar</td>
+            <td>Trabajar</td>
+            <td>Hacer ejercicio, aseo y compras</td>
+            <td>Adelantar activides del curso de programación o del trabajo</td>
+          </tr>
+          <tr>
+            <td>18:00 - 21:00</td>
+            <td>Clases de Progrmación</td>
+            <td>Clases de Progrmación</td>
+            <td>Clases de Progrmación</td>
+            <td>Clases de Progrmación</td>
+            <td>Clases de Progrmación</td>
+            <td>Compartir en familia(Ir al cine, salir a comer algo, salir con amigos, etc)</td>
+            <td>Compartir en familia(Ir al cine, salir a comer algo, salir con amigos, etc)</td>
+          </tr>
+        </table>
+
+    </section>
 
     <section>
         <h2> Formulario de Contacto</h2>
-        <form action="">
+        <form class="formulario" onsubmit="return validarFormulario()">
             <label>Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             <label>Correo Electronico:</label>
             <input type="email" id="email" name="email" required>
             <br>
             <button tipe="submit">Enviar</button>
+            <p class="c">* Campo requerido ...</p>
         </form>
     </section>
     <script src="script.js"></script>
 
     <footer>
+        <p>Sigueme</p>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/?lang=es"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+        </div>
         <p>Contáctame: &copy - <a href="mailto:carol.ingabil.18@gmail.com"> Carolina Bermudez Diago</a></p>
     </footer>
 

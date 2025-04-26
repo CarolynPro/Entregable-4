@@ -79,3 +79,36 @@ p{
     text-align:justify ;
     color: black;
 }
+
+.formulario{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(10, 4, 4, 0.1);
+    background-color: #367fc4;
+}
+.formulario input, .formulario button{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+.formulario button{
+    box-shadow: #c27171;
+}
+
+table {
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+    width: 100%; /* La tabla ocupa el 100% del ancho de la pantalla */
+  }
+  
+  th, td {
+    border: 1px solid black; /* Añade un borde a cada celda */
+    padding: 8px; /* Añade un espacio interno a la celda */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Color de fondo para los encabezados */
+  }
