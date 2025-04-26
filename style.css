@@ -123,7 +123,7 @@ table {
     overflow: hidden; /* Para evitar que las imágenes se salgan del contenedor */
   }
   .imagen {
-    width: 100px; /* Ajusta el tamaño de las imágenes según el mosaico */
-    height: 100px;
-    float: left;
+    width: 200px; /* Ajusta el tamaño de las imágenes según el mosaico */
+    height: 200px;
+    float: none; 
   }
