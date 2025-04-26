@@ -6,7 +6,7 @@ function mostrarMensaje(){
 function validarFormulario(){
     let nombre=document.getElementById("nombre").value;
     let email=document.getElementById("email").value;
-    if (nombre=="" || email=="" || imagen=="" ){
+    if (nombre=="" || email=="" ){
         alert("Todos los campos son obligatorios...");
         return false;
     }

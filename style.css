@@ -99,16 +99,16 @@ p{
 }
 
 table {
-    border-collapse: collapse; /* Elimina el espacio entre las celdas */
-    width: 100%; /* La tabla ocupa el 100% del ancho de la pantalla */
+    border-collapse: collapse; 
+    width: 100%; 
   }
   
   th, td {
-    border: 1px solid black; /* Añade un borde a cada celda */
-    padding: 8px; /* Añade un espacio interno a la celda */
-    text-align: left; /* Alinea el texto a la izquierda */
+    border: 1px solid rgb(243, 18, 157); 
+    padding: 8px; 
+    text-align: center;
   }
   
   th {
-    background-color: #f2f2f2; /* Color de fondo para los encabezados */
+    background-color: #74e499;
   }
