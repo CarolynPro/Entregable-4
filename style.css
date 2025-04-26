@@ -20,13 +20,13 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h2{
-    color: rgb(146, 8, 135);
+    color: rgb(240, 47, 224);
 }
-ul{
+ul ol{
     list-style: none;
     padding: 0;
 }
-ul li{
+ul ol li{
     background-color: #e0e0e0;
     margin: 5px 0;
     padding: 10px;
@@ -34,7 +34,7 @@ ul li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
-    background-color: #6d6c6c;
+    background-color: #f161b5;
     color: white;
     text-align: center;
     padding: 10px;
@@ -87,7 +87,7 @@ p{
     border: 1px solid #333;
     border-radius: 12px;
     box-shadow: 2px 2px 20px rgba(10, 4, 4, 0.1);
-    background-color: #367fc4;
+    background-color: #97f05d;
 }
 .formulario input, .formulario button{
     width: 95%;
